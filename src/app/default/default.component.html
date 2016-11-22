@@ -1,0 +1,16 @@
+<h1>
+  default strategy!
+</h1>
+
+<form>
+  <div>
+    <input type="text" name="first" [(ngModel)]="profile.first">
+  </div>
+  <div>
+    <input type="text" name="last" [(ngModel)]="profile.last">
+  </div>
+</form>
+
+<div>
+  {{profile.lastChanded() | date:'medium'}}
+</div>

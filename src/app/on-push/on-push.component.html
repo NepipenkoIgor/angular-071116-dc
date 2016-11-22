@@ -1,0 +1,21 @@
+<h1>
+  On-Push strategy!
+</h1>
+
+<form>
+  <div>
+    <input type="text" name="first" [(ngModel)]="profileValue.first">
+  </div>
+  <div>
+    <input type="text" name="last" [(ngModel)]="profileValue.last">
+  </div>
+</form>
+
+<div>
+  {{profileValue.lastChanded() | date:'medium'}}
+</div>
+
+
+<div>
+  <div> Total items: {{counter}}</div>
+</div>
